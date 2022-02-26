@@ -1,8 +1,9 @@
-const ages = [32, 33, 16, 40];
-const result = ages.filter(checkAdult);
+const listaDeIdade = [14, 29, 50, 40];
 
-function checkAdult(age) {
-  return age >= 18;
+function maiordeIdade(idade) {
+  return idade >= 18;
 }
+
+const result = listaDeIdade.filter(maiordeIdade);
 
 export default result
