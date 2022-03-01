@@ -1,10 +1,16 @@
-const numeros = [0,1,2,3,4,5]
-var total = 0;
+const numeros = (listaDosNumeros) =>{
+    listaDosNumeros.forEach(Number =>{
+        console.log(Number)
+    })
+}
 
-let somar = (item => {
-    total += item
-})
+// const numeros = [0,1,2,3,4,5]
+// var total = 0;
 
-numeros.forEach(somar)
+// let somar = (item => {
+//     total += item
+// })
 
-export default total
+// numeros.forEach(somar)
+
+export default numeros
