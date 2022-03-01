@@ -8,6 +8,10 @@ import fnMpa from './JS/map.js'
 import fnFru from './JS/push.js'
 import esportes from './JS/pop.js'
 import num from './JS/some.js'
+import fnCll from './JS/join.js'
+import imprimitLetras from '../JS/forEach.js'
+import find from './JS/findIndex.js'
+import keys from './JS/keys.js'
 
 console.log(`resultado at: ${item1}`)
 console.log(`resultado concat: ${letrasNumeros}`)
@@ -19,6 +23,10 @@ console.log(fnMpa)
 console.log(`função push: ${fnFru}`)
 console.log(esportes)
 console.log(`função push: ${num}`)
+console.log(`resultado join: ${fnCll}`)
+console.log(`resultado forEach: ${imprimitLetras}`)
+console.log(`resultado find: ${find}`)
+console.log(`resultado find: ${keys}`)
 
 /*
 join
